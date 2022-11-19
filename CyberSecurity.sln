@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lez4-CryptoTools", "Lez4-CryptoTolls\Lez4-CryptoTools.pyproj", "{407C0531-820E-4FDD-9BC6-BC155532FBDB}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lez5-CryptoTools", "Lez5-CryptoTool\Lez5-CryptoTools.pyproj", "{C4467B01-5981-4CAA-BD74-6BD1BCF1FAA4}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lez6-CryptoAuthentication", "Lez6-CryptoAuthentication\Lez6-CryptoAuthentication.pyproj", "{5965BA31-7619-4B30-8908-E27FE15FDF82}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lez7-WebSecurityIntro", "Lez7-WebSecurityIntro\Lez7-WebSecurityIntro.pyproj", "{06B6355B-06AA-41BE-9FF0-334E73203B69}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lez8-IngredientsOfWeb", "Lez8-WebIngredients\Lez8-IngredientsOfWeb.pyproj", "{43AA7AF4-7CF2-4693-8C6B-129C51D34D0A}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lez9-LanguageVulnerabilities", "Lez9-LanguageVulnerabilities\Lez9-LanguageVulnerabilities.pyproj", "{B3B56613-7791-4698-85A1-26EF253D3090}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lez2-IntroExercises", "Lez2-IntroExercises\Lez2-IntroExercises.pyproj", "{21AB1DF9-5395-4784-A349-5540BFD46046}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lez3-Encoding", "Lez3-Encoding\Lez3-Encoding.pyproj", "{57B06466-F478-4355-BB01-5FB5D481997A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{407C0531-820E-4FDD-9BC6-BC155532FBDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407C0531-820E-4FDD-9BC6-BC155532FBDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4467B01-5981-4CAA-BD74-6BD1BCF1FAA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4467B01-5981-4CAA-BD74-6BD1BCF1FAA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5965BA31-7619-4B30-8908-E27FE15FDF82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5965BA31-7619-4B30-8908-E27FE15FDF82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B6355B-06AA-41BE-9FF0-334E73203B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B6355B-06AA-41BE-9FF0-334E73203B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43AA7AF4-7CF2-4693-8C6B-129C51D34D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43AA7AF4-7CF2-4693-8C6B-129C51D34D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B56613-7791-4698-85A1-26EF253D3090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B56613-7791-4698-85A1-26EF253D3090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21AB1DF9-5395-4784-A349-5540BFD46046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21AB1DF9-5395-4784-A349-5540BFD46046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B06466-F478-4355-BB01-5FB5D481997A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B06466-F478-4355-BB01-5FB5D481997A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8A4D823-890F-45BE-8E29-6E467F112272}
+	EndGlobalSection
+EndGlobal

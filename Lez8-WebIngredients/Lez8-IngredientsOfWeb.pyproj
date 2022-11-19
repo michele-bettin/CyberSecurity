@@ -1,0 +1,84 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>43aa7af4-7cf2-4693-8c6b-129c51d34d0a</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Lez8-IngredientsOfWeb</Name>
+    <RootNamespace>Lez8-WebIngredients</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Challenges\" />
+    <Folder Include="Challenges\1_ajax_not_borax\" />
+    <Folder Include="Challenges\1_ajax_not_borax\web\" />
+    <Folder Include="Challenges\1_ajax_not_borax\web\webhooks\" />
+    <Folder Include="Challenges\2_Sweeeeeeeet\" />
+    <Folder Include="Challenges\2_Sweeeeeeeet\src\" />
+    <Folder Include="Challenges\3_vault\" />
+    <Folder Include="Challenges\3_vault\dump\" />
+    <Folder Include="Challenges\3_vault\src\" />
+    <Folder Include="Challenges\3_vault\src\css\" />
+    <Folder Include="Hints\" />
+    <Folder Include="Hints\1_ajax_not_borax\" />
+    <Folder Include="Hints\2_Sweeeeeet\" />
+    <Folder Include="Hints\3_vault\" />
+    <Folder Include="Solutions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Challenges\1_ajax_not_borax\description.docx" />
+    <Content Include="Challenges\1_ajax_not_borax\Dockerfile" />
+    <Content Include="Challenges\1_ajax_not_borax\docker_build.sh" />
+    <Content Include="Challenges\1_ajax_not_borax\docker_run.sh" />
+    <Content Include="Challenges\1_ajax_not_borax\web\index.html" />
+    <Content Include="Challenges\1_ajax_not_borax\web\md5.js" />
+    <Content Include="Challenges\1_ajax_not_borax\web\webhooks\get_pass.php" />
+    <Content Include="Challenges\1_ajax_not_borax\web\webhooks\get_username.php" />
+    <Content Include="Challenges\2_Sweeeeeeeet\description.docx" />
+    <Content Include="Challenges\2_Sweeeeeeeet\docker-compose.yml" />
+    <Content Include="Challenges\2_Sweeeeeeeet\Dockerfile" />
+    <Content Include="Challenges\2_Sweeeeeeeet\src\index.php" />
+    <Content Include="Challenges\3_vault\description.txt" />
+    <Content Include="Challenges\3_vault\docker-compose.yml" />
+    <Content Include="Challenges\3_vault\Dockerfile" />
+    <Content Include="Challenges\3_vault\dump\vault.sql" />
+    <Content Include="Challenges\3_vault\src\css\main.css" />
+    <Content Include="Challenges\3_vault\src\flag.png" />
+    <Content Include="Challenges\3_vault\src\index.php" />
+    <Content Include="Challenges\3_vault\src\login.php" />
+    <Content Include="Hints\1_ajax_not_borax\Hint1.docx" />
+    <Content Include="Hints\1_ajax_not_borax\Hint2.docx" />
+    <Content Include="Hints\2_Sweeeeeet\hint1.docx" />
+    <Content Include="Hints\2_Sweeeeeet\hint2.docx" />
+    <Content Include="Hints\3_vault\hint1.docx" />
+    <Content Include="Solutions\Ajax Not Borax.pdf" />
+    <Content Include="Solutions\Sweeeeet.pdf" />
+    <Content Include="Solutions\Vault.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Solutions\sweeeeet_solver.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
