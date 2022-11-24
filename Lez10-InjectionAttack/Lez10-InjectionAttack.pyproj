@@ -1,0 +1,141 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>007ddba1-4e69-47dd-8014-592dc86b2885</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Lez10-InjectionAttack</Name>
+    <RootNamespace>Lez10-InjectionAttack</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Challenges\" />
+    <Folder Include="Challenges\flags\" />
+    <Folder Include="Challenges\flags\data\" />
+    <Folder Include="Challenges\flags\data\flags\" />
+    <Folder Include="Challenges\ocr\" />
+    <Folder Include="Challenges\ocr\www\" />
+    <Folder Include="Challenges\ocr\www\css\" />
+    <Folder Include="Challenges\ocr\www\img\" />
+    <Folder Include="Challenges\ocr\www\js\" />
+    <Folder Include="Challenges\ocr\www\private\" />
+    <Folder Include="Challenges\ocr\www\templates\" />
+    <Folder Include="Challenges\saltfish\" />
+    <Folder Include="Challenges\saltfish\data\" />
+    <Folder Include="Challenges\smartcat1\" />
+    <Folder Include="Challenges\smartcat1\chall\" />
+    <Folder Include="Challenges\smartcat1\chall\there\" />
+    <Folder Include="Challenges\smartcat1\chall\there\is\" />
+    <Folder Include="Challenges\smartcat1\chall\there\is\your\" />
+    <Folder Include="Challenges\smartcat1\chall\there\is\your\flag\" />
+    <Folder Include="Challenges\smartcat1\chall\there\is\your\flag\or\" />
+    <Folder Include="Challenges\smartcat1\chall\there\is\your\flag\or\maybe\" />
+    <Folder Include="Challenges\smartcat1\chall\there\is\your\flag\or\maybe\not\" />
+    <Folder Include="Challenges\smartcat1\chall\there\is\your\flag\or\maybe\not\what\" />
+    <Folder Include="Challenges\smartcat1\chall\there\is\your\flag\or\maybe\not\what\do\" />
+    <Folder Include="Challenges\smartcat1\chall\there\is\your\flag\or\maybe\not\what\do\you\" />
+    <Folder Include="Challenges\smartcat1\chall\there\is\your\flag\or\maybe\not\what\do\you\think\" />
+    <Folder Include="Challenges\smartcat1\chall\there\is\your\flag\or\maybe\not\what\do\you\think\really\" />
+    <Folder Include="Challenges\smartcat1\chall\there\is\your\flag\or\maybe\not\what\do\you\think\really\please\" />
+    <Folder Include="Challenges\smartcat1\chall\there\is\your\flag\or\maybe\not\what\do\you\think\really\please\tell\" />
+    <Folder Include="Challenges\smartcat1\chall\there\is\your\flag\or\maybe\not\what\do\you\think\really\please\tell\me\" />
+    <Folder Include="Challenges\smartcat1\chall\there\is\your\flag\or\maybe\not\what\do\you\think\really\please\tell\me\seriously\" />
+    <Folder Include="Challenges\smartcat1\chall\there\is\your\flag\or\maybe\not\what\do\you\think\really\please\tell\me\seriously\though\" />
+    <Folder Include="Challenges\smartcat1\chall\there\is\your\flag\or\maybe\not\what\do\you\think\really\please\tell\me\seriously\though\here\" />
+    <Folder Include="Challenges\smartcat1\chall\there\is\your\flag\or\maybe\not\what\do\you\think\really\please\tell\me\seriously\though\here\is\" />
+    <Folder Include="Challenges\smartcat1\chall\there\is\your\flag\or\maybe\not\what\do\you\think\really\please\tell\me\seriously\though\here\is\the\" />
+    <Folder Include="Hints\" />
+    <Folder Include="Hints\flags\" />
+    <Folder Include="Hints\ocr\" />
+    <Folder Include="Hints\saltfish\" />
+    <Folder Include="Hints\smartcat\" />
+    <Folder Include="Solutions\" />
+    <Folder Include="Solutions\ocr_solution\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Challenges\flags\data\Dockerfile" />
+    <Content Include="Challenges\flags\data\flag" />
+    <Content Include="Challenges\flags\data\flags\de.jpg" />
+    <Content Include="Challenges\flags\data\flags\en-US.jpg" />
+    <Content Include="Challenges\flags\data\flags\en.jpg" />
+    <Content Include="Challenges\flags\data\flags\ot.jpg" />
+    <Content Include="Challenges\flags\data\index.php" />
+    <Content Include="Challenges\flags\docker-compose.yml" />
+    <Content Include="Challenges\flags\README.md" />
+    <Content Include="Challenges\ocr\description.txt" />
+    <Content Include="Challenges\ocr\Dockerfile" />
+    <Content Include="Challenges\ocr\docker_build.sh" />
+    <Content Include="Challenges\ocr\docker_run.sh" />
+    <Content Include="Challenges\ocr\www\css\cover.css" />
+    <Content Include="Challenges\ocr\www\img\equation.png" />
+    <Content Include="Challenges\ocr\www\js\custom.js" />
+    <Content Include="Challenges\ocr\www\private\config-9a9f05ed-e0d2-46f9-a761-89573214d6ff" />
+    <Content Include="Challenges\ocr\www\private\flag.txt" />
+    <Content Include="Challenges\ocr\www\templates\index.html" />
+    <Content Include="Challenges\ocr\www\templates\result.html" />
+    <Content Include="Challenges\saltfish\data\flag.php" />
+    <Content Include="Challenges\saltfish\data\index.php" />
+    <Content Include="Challenges\saltfish\description.txt" />
+    <Content Include="Challenges\saltfish\Dockerfile" />
+    <Content Include="Challenges\saltfish\docker_build.sh" />
+    <Content Include="Challenges\saltfish\docker_run.sh" />
+    <Content Include="Challenges\smartcat1\chall\there\is\your\flag\or\maybe\not\what\do\you\think\really\please\tell\me\seriously\though\here\is\the\flag" />
+    <Content Include="Challenges\smartcat1\description.txt" />
+    <Content Include="Challenges\smartcat1\docker-compose.yml" />
+    <Content Include="Challenges\smartcat1\Dockerfile" />
+    <Content Include="Challenges\smartcat1\requirements.txt" />
+    <Content Include="Hints\flags\hint1.docx" />
+    <Content Include="Hints\flags\hint2.docx" />
+    <Content Include="Hints\ocr\hint1.docx" />
+    <Content Include="Hints\ocr\hint2.docx" />
+    <Content Include="Hints\saltfish\hint1.docx" />
+    <Content Include="Hints\saltfish\hint2.docx" />
+    <Content Include="Hints\smartcat\hint1.docx" />
+    <Content Include="Solutions\flags.pdf" />
+    <Content Include="Solutions\OCR.pdf" />
+    <Content Include="Solutions\ocr_solution\flag0.png" />
+    <Content Include="Solutions\ocr_solution\flag1.png" />
+    <Content Include="Solutions\ocr_solution\flag10.png" />
+    <Content Include="Solutions\ocr_solution\flag11.png" />
+    <Content Include="Solutions\ocr_solution\flag12.png" />
+    <Content Include="Solutions\ocr_solution\flag13.png" />
+    <Content Include="Solutions\ocr_solution\flag2.png" />
+    <Content Include="Solutions\ocr_solution\flag3.png" />
+    <Content Include="Solutions\ocr_solution\flag4.png" />
+    <Content Include="Solutions\ocr_solution\flag5.png" />
+    <Content Include="Solutions\ocr_solution\flag6.png" />
+    <Content Include="Solutions\ocr_solution\flag7.png" />
+    <Content Include="Solutions\ocr_solution\flag8.png" />
+    <Content Include="Solutions\ocr_solution\flag9.png" />
+    <Content Include="Solutions\ocr_solution\test.png" />
+    <Content Include="Solutions\Saltfish.pdf" />
+    <Content Include="Solutions\Smartcat1.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Challenges\ocr\www\codeserver.py" />
+    <Compile Include="Challenges\ocr\www\server.py" />
+    <Compile Include="Challenges\smartcat1\chall\index.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
